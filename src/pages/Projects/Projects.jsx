@@ -14,14 +14,14 @@ const ProjectShowcase = () => {
 
   const projects = [
     {
-      title: "Olova! A Lightweight JavaScript Library",
+      title: "Ecommerce Store Project",
       description:
         "Olova.js is a lightweight JavaScript library for building modern, reactive, and dynamic web applications. It features a simple, component-based architecture, enabling developers to create reusable and interactive UI elements with minimal code and overhead.",
-      tags: ["JavaScript", "Reactive", "Web Development"],
+      tags: ["JavaScript", "React", "Web Development"],
       category: "Frontend",
       links: {
-        github: "https://github.com/olovajs/olova",
-        demo: "https://olova.js.org/",
+        github: "https://github.com/moeed038ulazeem/Ecomerce-stroe.git",
+        // demo: "https://olova.js.org/",
       },
       image: olova,
       featured: true,

@@ -73,8 +73,8 @@ const SkillsSection = () => {
       skills: [
         { name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
         {
-          name: "Node.js",
-          icon: <SiNextdotjs className="w-4 h-4 text-white" />,
+          name: "bootstrap",
+          icon: <bootstrap className="w-4 h-4 text-white" />,
         },
         {
           name: "TypeScript",
@@ -107,10 +107,10 @@ const SkillsSection = () => {
           name: "Python",
           icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
         },
-        {
-          name: "PostgreSQL",
-          icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
-        },
+        // {
+        //   name: "PostgreSQL",
+        //   icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
+        // },
         {
           name: "MongoDB",
           icon: <SiMongodb className="w-4 h-4 text-[#47A248]" />,
@@ -119,10 +119,10 @@ const SkillsSection = () => {
           name: "REST APIs",
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
-        {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-        },
+        // {
+        //   name: "GraphQL",
+        //   icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
+        // },
       ],
     },
     {
@@ -135,10 +135,10 @@ const SkillsSection = () => {
           name: "Responsive Design",
           icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
         },
-        {
-          name: "Wireframing",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
-        },
+        // {
+        //   name: "Wireframing",
+        //   icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
+        // },
         {
           name: "Prototyping",
           icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
@@ -151,17 +151,17 @@ const SkillsSection = () => {
       color: "text-orange-400",
       skills: [
         { name: "AWS", icon: <FaAws className="w-4 h-4 text-[#FF9900]" /> },
-        {
-          name: "Docker",
-          icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
-        },
-        { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
-        {
-          name: "Kubernetes",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
-        },
+        // {
+        //   name: "Docker",
+        //   icon: <FaDocker className="w-4 h-4 text-[#2496ED]" />,
+        // },
+        // { name: "CI/CD", icon: <FcWorkflow className="w-4 h-4" /> },
+        // {
+        //   name: "Kubernetes",
+        //   icon: <BsGrid1X2 className="w-4 h-4 text-[#326CE5]" />,
+        // },
         { name: "Git", icon: <FaGitAlt className="w-4 h-4 text-[#F05032]" /> },
-        { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
+        // { name: "Linux", icon: <FaLinux className="w-4 h-4 text-[#FCC624]" /> },
       ],
     },
     {
