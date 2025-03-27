@@ -8,6 +8,8 @@ import {
   Filter,
 } from "lucide-react";
 import olova from "@/assets/images/olova-B0FjVVEL.png";
+import projecct2 from "@/assets/images/projecct2.png";
+import project3 from "@/assets/images/project3.png";
 
 const ProjectShowcase = () => {
   const [filter, setFilter] = useState("All");
@@ -16,14 +18,43 @@ const ProjectShowcase = () => {
     {
       title: "Ecommerce Store Project",
       description:
-        "Olova.js is a lightweight JavaScript library for building modern, reactive, and dynamic web applications. It features a simple, component-based architecture, enabling developers to create reusable and interactive UI elements with minimal code and overhead.",
-      tags: ["JavaScript", "React", "Web Development"],
+        "I developed a fully functional e-commerce store using React with a focus on seamless user experience and modern web design. The application features Firebase Authentication for secure user login and registration, ensuring data privacy and account security. State management was handled through Redux Toolkit, enabling efficient cart functionality and dynamic routing. The store includes product listing, filtering, and responsive design using Tailwind CSS, providing a smooth shopping experience across all devices. This project enhanced my skills in frontend development, authentication integration, and state management.",
+      tags: ["JavaScript", "React","FireBase","TailwandCSS", "Web Development"],
       category: "Frontend",
       links: {
         github: "https://github.com/moeed038ulazeem/Ecomerce-stroe.git",
         // demo: "https://olova.js.org/",
       },
       image: olova,
+      featured: true,
+    },
+
+    {
+      title: "Music Player",
+      description:
+        "I built a **Music Player** using **HTML**, **CSS**, and **JavaScript**, featuring play, pause, next, and previous controls. The player includes a responsive design with dynamic song titles, progress bars, and time tracking. JavaScript was used to handle audio functionality, event handling, and user interactions, enhancing my skills in **DOM manipulation** and **frontend development**.",
+      tags: ["JavaScript", "HTML5","CSS3","DOM", "Web Development"],
+      category: "Frontend",
+      links: {
+        github: "https://moeed038ulazeem.github.io/code-alpha-project-03-music-player/",
+        // demo: "https://olova.js.org/",
+      },
+      image: projecct2,
+      featured: true,
+    },
+
+
+    {
+      title: "Personal  Portfolio",
+      description:
+        "I created a fully functional personal portfolio using React, showcasing my projects, skills, and experiences. The portfolio features smooth animations and interactive UI elements for an engaging user experience. It includes responsive design, dynamic routing, and optimized performance across devices. This project enhanced my expertise in React development, animation integration, and frontend design.",
+      tags: ["JavaScript", "React","3D Animation","TypeScript", "Redux Toolkit",],
+      category: "Frontend",
+      links: {
+        github: "https://moeed038ulazeem.github.io/code-alpha-project-03-music-player/",
+        // demo: "https://olova.js.org/",
+      },
+      image: project3,
       featured: true,
     },
     // You can add more projects here
